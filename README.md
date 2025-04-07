@@ -39,3 +39,41 @@ Clone o projeto e instale os pacotes:
 git clone https://github.com/seu-usuario/controle-projetos.git
 cd controle-projetos
 pip install -r requirements.txt
+```
+
+
+## ▶️ Como rodar
+Execute o app com:
+
+```bash
+python app.py
+```
+Acesse no navegador:
+
+```
+http://127.0.0.1:5000/
+```
+
+## 📤 Exportação para Excel
+Você pode exportar todos os projetos cadastrados clicando no botão "Exportar Excel" na página inicial. Um arquivo .xlsx será gerado para download.
+
+
+## 📌 Regras de Status (automático)
+O campo Status é preenchido automaticamente com base nos seguintes critérios:
+
+- Se etapa = Paralizado → Paralizado
+
+- Se etapa = Cancelado → Cancelado
+
+- Se progresso = 100% → Implementado
+
+- Caso contrário → Em andamento
+
+## 💡 Tecnologias Usadas
+- Flask
+- Flask SQLAlchemy
+- Bootstrap 5
+- Pandas + Openpyxl
+
+## 📁 Licença
+Este projeto está licenciado sob a MIT License.

@@ -12,7 +12,18 @@ Este é um sistema web simples para controle de projetos, desenvolvido com **Fla
 
 ## 🧱 Estrutura do Projeto
 
-controle_projetos/ │ ├── app.py # Arquivo principal da aplicação ├── models.py # Modelos de banco de dados ├── export.py # Função de exportação para Excel ├── requirements.txt # Dependências │ ├── templates/ # Arquivos HTML (Jinja2 + Bootstrap) │ ├── layout.html │ ├── index.html │ └── add_project.html │ └── projetos.db # Banco de dados SQLite (gerado automaticamente)
+controle_projetos/
+│
+├── app.py # Arquivo principal da aplicação 
+├── models.py # Modelos de banco de dados 
+├── export.py # Função de exportação para Excel 
+├── requirements.txt # Dependências 
+│ 
+├── templates/ # Arquivos HTML (Jinja2 + Bootstrap) 
+│ ├── layout.html 
+│ ├── index.html 
+│ └── add_project.html 
+│ └── projetos.db # Banco de dados SQLite (gerado automaticamente)
 
 ## 📦 Requisitos
 
